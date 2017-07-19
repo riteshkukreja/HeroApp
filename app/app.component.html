@@ -1,0 +1,6 @@
+<h1>Tour of Heroes</h1>
+<nav>
+  <a *ngFor="let nav of navs" routerLink="{{nav.link}}" routerLinkActive="active">{{nav.title}}</a>
+</nav>
+<router-outlet></router-outlet>
+
